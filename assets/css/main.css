@@ -20,10 +20,10 @@
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #d7dde4; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #dfe4e9; /* Color for headings, subheadings and title throughout the website */
+  --default-color: #282830; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #090c0e; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #0563bb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --surface-color: #ece4e4; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
@@ -42,6 +42,7 @@
 .light-background {
   --background-color: #000000;
   --surface-color: #161616;
+  --default-color: #ffffff;
 }
 
 .dark-background {
@@ -552,11 +553,13 @@ section,
   margin: 0;
   font-size: 64px;
   font-weight: 700;
+  color: azure;
 }
 
 .hero p {
   margin: 5px 0 0 0;
   font-size: 26px;
+  color: azure;
 }
 
 .hero p span {
